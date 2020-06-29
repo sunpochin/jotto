@@ -10,12 +10,12 @@ const GuessedWords = (props) => {
             <span data-test="guess-instructions">
                 Try to guess the secret words!
             </span>
-        )
+        );
     }
 
     return (
         <div data-test="component-guessed-word">
-
+            {contents}
         </div>
     );
 };
